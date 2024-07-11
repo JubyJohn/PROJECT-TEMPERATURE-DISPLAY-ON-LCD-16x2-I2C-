@@ -16,19 +16,22 @@ To display the temperature and humidity reading of DHT11 on LCD 16x2 I2C.
 ## CONNECTION
 
 ### LCD16x2 I2C Module Pin Diagram
- 
+
+ ![ii2c module](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/31ba24ff-cd4e-4298-86f6-1ee8f1fec7ed)
+
 <br> VCC = power supply ---->  3V3
 <br> GND = ground          ---->  GND
 <br> SDA = serial data line   ---->  D2
 <br> SCL = serial clock line   ---->  D1
 
-### Push Button Pin Diagram
+### DHT11 Sensor Pin Diagram
 
- 
+ ![DHT11](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/97c4662c-0902-4f8d-95b7-881efbba4d68)
 
-<br> VCC    = power supply  ---->  3V3
-<br> DATA  = Output     ---->  D6
-<br> GND   = ground   ---->  GND
+
+<br> S     = Output     ---->  D6
+<br> Middle   = power supply  ---->  3V3
+<br> -     = ground   ---->  GND
 
 
 ## PROCEDURE
@@ -55,14 +58,18 @@ https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_
 
 
 ## OUTPUT
-C:\Users\JUBY JOHN\Desktop\Projects\prjt 2 i2c&dht11\images
+
+![IMG_1](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/1721d315-b7d5-4361-a835-31aeb70cdbad)
+
+![IMG_2](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/fe52fe3d-f328-4af6-9cb8-5a2ec770bb1c)
+
 
 ## REFERENCES
-LiquidcrystalI2C- library : http://easycoding.tn/index.php/resources/
-LiquidcrystalI2C- code : http://easycoding.tn/tuniot/demos/code/
-Adafruit_Sensor library : https://github.com/adafruit/Adafruit_Sensor
-DHT_Sensor library  :
- https://www.arduinolibraries.info/libraries/dht-sensor-library
-DHT11 -code : https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things/7%3A_Appendix_5%3A_Microcontollers/2%3A_Read_Temperature_and_Humidity_with_DHT22
+
+<br> LiquidcrystalI2C- library : http://easycoding.tn/index.php/resources/
+<br> LiquidcrystalI2C- code : http://easycoding.tn/tuniot/demos/code/
+<br> Adafruit_Sensor library : https://github.com/adafruit/Adafruit_Sensor
+<br> DHT_Sensor library  : https://www.arduinolibraries.info/libraries/dht-sensor-library
+<br> DHT11 -code : https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things/7%3A_Appendix_5%3A_Microcontollers/2%3A_Read_Temperature_and_Humidity_with_DHT22
 
 
