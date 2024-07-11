@@ -61,7 +61,7 @@ https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_
 
 ## OUTPUT
 
-![IMG_1](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/5e343c3f-477a-46fc-b17e-014aae5c762f)
+![IMG_1](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/34b0b6ac-fd50-4a40-bf60-4e05eb8a5127)
 
 
 ![IMG_2](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/fe52fe3d-f328-4af6-9cb8-5a2ec770bb1c)
