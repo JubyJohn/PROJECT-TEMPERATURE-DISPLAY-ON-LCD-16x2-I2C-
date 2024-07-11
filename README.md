@@ -17,7 +17,9 @@ To display the temperature and humidity reading of DHT11 on LCD 16x2 I2C.
 
 ### LCD16x2 I2C Module Pin Diagram
 
- ![ii2c module](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/31ba24ff-cd4e-4298-86f6-1ee8f1fec7ed)
+
+ ![ii2c module](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/2fb1c300-9eef-4ed0-b980-29dce82ac4f8)
+
 
 <br> VCC = power supply ---->  3V3
 <br> GND = ground          ---->  GND
@@ -59,7 +61,7 @@ https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_
 
 ## OUTPUT
 
-![IMG_1](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/1721d315-b7d5-4361-a835-31aeb70cdbad)
+![IMG_1](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/5e343c3f-477a-46fc-b17e-014aae5c762f)
 
 ![IMG_2](https://github.com/JubyJohn/PROJECT-TEMPERATURE-DISPLAY-ON-LCD-16x2-I2C-/assets/81866407/fe52fe3d-f328-4af6-9cb8-5a2ec770bb1c)
 
