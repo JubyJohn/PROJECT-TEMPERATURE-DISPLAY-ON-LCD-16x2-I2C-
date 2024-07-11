@@ -1,0 +1,33 @@
+/*
+*Read Temperature and Humidity with DHT22
+*Sketch for ESP8266-NodeMCU
+*/
+
+#include "DHT.h"  //Library for the sensor
+#define DHTTYPE DHT11 // There are several DHT sensors that this code can be used for. In our case we use DHT22
+#define DHTPIN D6 // DHT22 sensor's data line is connected to pin D2
+
+float h; //It is always a good idea to declare variables in the very beginning.
+float t;
+
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+  Serial.begin(115200);  //Start serial monitor. We only need to do this once, hence this line of code is in setup()
+  dht.begin(); // Start the sensor
+}
+
+void loop() {
+  h = dht.readHumidity(); //Store humidity value in variable h
+  t = dht.readTemperature(); ////Store temperature value in variable t
+  
+  Serial.print("Humidity: ");
+  Serial.print(h);
+  Serial.println(" %");
+  Serial.print("Temperature: ");
+  Serial.print(t);
+  Serial.println(" *C");
+
+
+  delay(10*1000);       // print new values every 10 seconds (10,000 milliseconds)
+}
