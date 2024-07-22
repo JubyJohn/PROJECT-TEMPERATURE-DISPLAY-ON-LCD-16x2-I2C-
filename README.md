@@ -48,15 +48,15 @@ To display the temperature and humidity reading of DHT11 on LCD 16x2 I2C.
 
 ### Error 1 -   DHT_sensor library installation
 #### How to rectify:
-(1)  Need to find suitable library
-https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things/7%3A_Appendix_5%3A_Microcontollers/2%3A_Read_Temperature_and_Humidity_with_DHT22
-(2)  Open above link address -> download ZIP file
-(3)  Go to Arduino IDE -> sketch -> include library -> add ZIP file -> downloads -> select downloaded zip file -> close
+<br> (1)  Need to find suitable library
+<br> https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things/7%3A_Appendix_5%3A_Microcontollers/2%3A_Read_Temperature_and_Humidity_with_DHT22
+<br> (2)  Open above link address -> download ZIP file
+<br> (3)  Go to Arduino IDE -> sketch -> include library -> add ZIP file -> downloads -> select downloaded zip file -> close
 ### Error 2 -   Not getting DHT22 sensor reading 
 #### How to rectify:
-(1)  On serial monitor it prints like
-              Humidity: nan %  Temperature : nan*C      // not getting the readings 
-(2)  Changed sensor , this error shows because of sensor complaint.
+<br> (1)  On serial monitor it prints like
+<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Humidity: nan %  Temperature : nan*C      // not getting the readings 
+<br> (2)  Changed sensor , this error shows because of sensor complaint.
 
 
 ## OUTPUT
