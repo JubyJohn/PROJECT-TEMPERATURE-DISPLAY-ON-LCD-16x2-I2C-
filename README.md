@@ -13,6 +13,7 @@ To display the temperature and humidity reading of DHT11 on LCD 16x2 I2C.
 4.	Jumper Wire
 5.	USB cable
 
+
 ## CONNECTION
 
 ### LCD16x2 I2C Module Pin Diagram
